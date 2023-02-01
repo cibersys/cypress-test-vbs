@@ -1,0 +1,21 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "pruebas con cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "test",
+    "cypress"
+  ],
+  "author": "Katia Reyes",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.1.0",
+    "esbuild": "^0.16.10"
+  }
+}
